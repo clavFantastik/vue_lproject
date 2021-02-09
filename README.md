@@ -1,4 +1,4 @@
-# pr
+# social_vue
 
 ## Project setup
 ```
