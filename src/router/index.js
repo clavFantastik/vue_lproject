@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import UserProfile from '../views/UserProfile.vue'
 import FindUsers from '../views/FindUsers.vue'
+import Login from '../views/Login.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,12 +12,16 @@ const routes = [
     component: Home
   },
   {
-    path: '/user/:id',
+    path: '/users/:id',
     component: UserProfile
   },
   {
     path: '/useras',
     component: FindUsers
+  },
+  {
+    path: '/Login',
+    component: Login
   },
   {
     path: '/about',

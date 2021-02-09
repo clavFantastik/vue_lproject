@@ -16,7 +16,7 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title> SocialLink </v-list-item-title>
-            <v-list-item-subtitle> Руслан Абкадиров </v-list-item-subtitle>
+            <v-list-item-subtitle> Ervin Howell </v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
 
@@ -29,7 +29,7 @@
           <v-list-item-content> Главная </v-list-item-content>
         </v-list-item>
 
-        <v-list-item link to="/user/2">
+        <v-list-item link to="/users/2">
           <v-list-item-icon>
             <v-icon>mdi-account-outline</v-icon>
           </v-list-item-icon>
@@ -49,7 +49,7 @@
 
     <v-content class="px-12 py-3" app>
       <v-container fluid>
-        <router-view />
+        <router-view v-on:login="updateUser" />
       </v-container>
     </v-content>
   </v-app>
@@ -64,5 +64,8 @@ export default {
   data: () => ({
     nav: true,
   }),
+  methods: {
+    updateUser() {},
+  },
 };
 </script>
