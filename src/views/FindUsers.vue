@@ -22,7 +22,7 @@
 
           <v-card-actions>
             <v-btn outlined rounded text
-              ><v-list-item link :to="`/user/${i + 1}`">
+              ><v-list-item link :to="`/users/${i + 1}`">
                 <v-list-item-title
                   class="text-center"
                   style="margin-bottom: 10px"
