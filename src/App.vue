@@ -47,13 +47,25 @@
           <v-list-item-content> Найти друзей </v-list-item-content>
         </v-list-item>
         <v-divider class="my-3"></v-divider>
-        <v-list-item link to="/login">
+        <v-list-item link to="/login" exact>
           <v-list-item-icon>
             <v-icon>mdi-login</v-icon>
           </v-list-item-icon>
-          <v-list-item-content> Вход | Регистрация </v-list-item-content>
+          <v-list-item-content> Вход </v-list-item-content>
         </v-list-item>
-      </v-list>
+
+        <v-list-item link to="/reg">
+          <v-list-item-icon>
+            <v-icon>mdi-clipboard-account-outline</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content> Регистрация </v-list-item-content>
+        </v-list-item> </v-list
+      ><br />
+      <v-list-item link to="/login">
+        <v-btn @click="out" color="red" style="margin-left: 76px">
+          Выйти
+        </v-btn>
+      </v-list-item>
     </v-navigation-drawer>
 
     <!-- комментарий -->
@@ -75,5 +87,10 @@ export default {
   data: () => ({
     nav: true,
   }),
+  methods: {
+    out() {
+      window.location.reload();
+    },
+  },
 };
 </script>

@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     usersData: {
-      id: '-1',
+      id: '',
       name: ''
     }
   },

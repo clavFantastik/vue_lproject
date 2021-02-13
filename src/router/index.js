@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import UserProfile from '../views/UserProfile.vue'
 import FindUsers from '../views/FindUsers.vue'
 import Login from '../views/Login.vue'
+import Reg from '../views/reg.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +15,10 @@ const routes = [
   {
     path: '/users/:id',
     component: UserProfile
+  },
+  {
+    path: '/reg',
+    component: Reg
   },
   {
     path: '/useras',

@@ -15,8 +15,7 @@
         outlined
       ></v-text-field>
 
-      <v-btn @click="authenticate"> Войти </v-btn> |
-      <v-btn @click="registrate"> Зарагестрироваться </v-btn>
+      <v-btn @click="authenticate"> Войти </v-btn>
     </v-card>
   </div>
 </template>
