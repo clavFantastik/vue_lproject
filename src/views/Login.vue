@@ -15,7 +15,8 @@
         outlined
       ></v-text-field>
 
-      <v-btn @click="authenticate"> Войти </v-btn>
+      <v-btn @click="authenticate"> Войти </v-btn> |
+      <v-btn @click="registrate"> Зарагестрироваться </v-btn>
     </v-card>
   </div>
 </template>
@@ -38,15 +39,38 @@ export default {
               this.login == users[i].login &&
               this.password == users[i].password
             ) {
-              this.myId = ++i;
-              this.$emit("login", ++i);
+              this.myId = i;
+              this.$store.state.usersData.id = i;
               this.$router.push("/users/" + this.myId);
               found = true;
               break;
             }
           }
           if (!found) {
-            window.alert("ss");
+            window.alert("Ошибка! Убедитесь что заполняли все правильно");
+          }
+        });
+    },
+    registrate() {
+      this.axios
+        .get(`https://api.npoint.io/5fbd4ff634089219213a`)
+        .then((response) => {
+          let users = response.data;
+          let found = false;
+          for (let i in users) {
+            if (
+              this.login == users[i].login &&
+              this.password == users[i].password
+            ) {
+              this.myId = i;
+              this.$store.state.usersData.id = i;
+              this.$router.push("/users/" + this.myId);
+              found = true;
+              break;
+            }
+          }
+          if (!found) {
+            window.alert("Ошибка! Убедитесь что заполняли все правильно");
           }
         });
     },
