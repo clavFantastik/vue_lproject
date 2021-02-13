@@ -1,0 +1,92 @@
+[{
+    "name": "Leanne Graham",
+    "email": "Sincere@april.biz",
+    "city": "Gwenborough",
+    "website": "hildegard.org",
+    "company": "Romaguera-Crona",
+    "login": "admin",
+    "password": "1"
+
+  },
+{
+    "name": "Ervin Howell",
+    "email": "Shanna@melissa.tv",
+      "city": "Wisokyburgh",
+    "website": "hildegard.org",
+    "company": "eckow-Crist",
+    "login": "admin",
+    "password": "2"
+  },
+  {
+    "name": "Clementine Bauch",
+    "email": "Nathan@yesenia.net",
+    "city": "McKenziehaven",
+    "website": "amiro.info",
+    "company": "Romaguera-Jacobson",
+    "login": "admin",
+    "password": "3"
+  },
+  {
+    "name": "Patricia Lebsack",
+    "email": "Julianne.OConner@kory.org",
+    "city": "South Elvis",
+    "website": "kale.biz",
+    "company": "Robel-Corkery",
+    "login": "admin",
+    "password": "4"
+  },
+  {
+    "name": "Chelsey Dietrich",
+    "email": "Lucio_Hettinger@annie.ca",
+    "city": "Roscoeview",
+    "website": "demarco.info",
+    "company": "Keebler LLC",
+    "login": "admin",
+    "password": "5"
+  },
+  {
+    "name": "Mrs. Dennis Schulist",
+    "email": "Leopoldo_Corkery",
+    "city": "South Christy",
+    "website": "ola.org",
+    "company": "Considine-Lockman",
+    "login": "admin",
+    "password": "6"
+  },
+  {
+    "name": "Kurtis Weissnat",
+    "email": "Telly.Hoeger@billy.biz",
+    "city": "Howemouth",
+    "website": "elvis.io",
+    "company": "Johns Group",
+    "login": "admin",
+    "password": "7"
+  },
+  {
+    "name": "Nicholas Runolfsdottir V",
+    "email": "Sherwood@rosamond.me",
+    "city": "Aliyaview",
+    "website": "jacynthe.com",
+    "company": "Abernathy Group",
+    "login": "admin",
+    "password": "8"
+  },
+  {
+    "name": "Glenna Reichert",
+    "email": "Chaim_McDermott@dana.io",
+    "city": "Bartholomebury",
+    "website": "conrad.com",
+    "company": "Yost and Sons",
+    "login": "admin",
+    "password": "9"
+  },
+    {
+    "name": "Clementina DuBuque",
+    "email": "Rey.Padberg@karina.biz",
+    "city": "Lebsackbury",
+    "website": "ambrose.net",
+    "company": "Hoeger LLC",
+    "login": "admin",
+    "password": "10"
+  },
+]
